@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSERVICE | Modern IT Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">IT<span>SERVICE</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Empowering Your Business Through Technology</h1>
+            <p>We deliver cutting-edge IT services, cloud solutions, and cybersecurity tailored to your startup's growth.</p>
+            <a href="#contact" class="btn-primary">Get Started</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>Founded with a vision to simplify technology, ITSERVICE helps modern enterprises scale seamlessly. We bridge the gap between complex IT infrastructure and your daily business operations.</p>
+                    <p>Our team of expert developers, cloud architects, and security analysts work around the clock to ensure your digital ecosystem stays efficient, secure, and future-proof.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>99.9% Uptime</h4>
+                        <p>Reliable cloud management.</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-users"></i>
+                        <h4>500+ Clients</h4>
+                        <p>Trusted globally.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <h3>Cloud Computing</h3>
+                    <p>Secure migrations and infrastructure management tailored for scalability.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Advanced threat detection, protocol auditing, and data encryption services.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Custom Software</h3>
+                    <p>Building high-performance web and mobile applications for your brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing-section">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <div class="pricing-card">
+                    <div class="card-header">Startup</div>
+                    <div class="price">$10<span>/mo</span></div>
+                    <ul class="features">
+                        <li>Core IT Support</li>
+                        <li>Cloud Backup (50GB)</li>
+                        <li>Next-Day Issue Resolution</li>
+                        <li class="disabled">Dedicated Engineer</li>
+                    </ul>
+                    <a href="#contact" class="btn-secondary">Choose Plan</a>
+                </div>
+                <!-- Plan 2 (Featured) -->
+                <div class="pricing-card featured">
+                    <div class="card-header">Growth</div>
+                    <div class="price">$20<span>/mo</span></div>
+                    <ul class="features">
+                        <li>24/7 Priority Support</li>
+                        <li>Cloud Backup (500GB)</li>
+                        <li>Advanced Cybersecurity</li>
+                        <li>Dedicated IT Consultant</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary">Choose Plan</a>
+                </div>
+                <!-- Plan 3 -->
+                <div class="pricing-card">
+                    <div class="card-header">Enterprise</div>
+                    <div class="price">$30<span>/mo</span></div>
+                    <ul class="features">
+                        <li>Unlimited Infrastructure Support</li>
+                        <li>Custom Cloud Architecting</li>
+                        <li>Full Penetration Testing</li>
+                        <li>24/7 Dedicated Team</li>
+                    </ul>
+                    <a href="#contact" class="btn-secondary">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Have questions? Reach out to our tech advisors today for a free consultation evaluation.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> Sen Sokn, Phnom Penh</li>
+                        <li><i class="fa-solid fa-envelope"></i> chansophearithkong@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +885 087 284 535</li>
+                    </ul>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Demo Form Submitted!');">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 ITSERVICE. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
